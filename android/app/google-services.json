@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "581582499689",
+    "project_id": "managetime-firebase",
+    "storage_bucket": "managetime-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581582499689:android:f49a03dcb668149b4b57f8",
+        "android_client_info": {
+          "package_name": "com.example.timemanagment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581582499689-l4oi7tsici5o8k6crhnch86blq1s1aej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqiyRUF3yskhajssIISXN37zRS0flVsUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581582499689-l4oi7tsici5o8k6crhnch86blq1s1aej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
