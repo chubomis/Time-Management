@@ -13,4 +13,3 @@
 ## Demo
 Check out the app in action:
 https://user-images.githubusercontent.com/74563547/219827605-f6a71c7b-4a4c-4a52-99e4-e92e15af8671.mp4
-
