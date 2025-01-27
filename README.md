@@ -1,22 +1,16 @@
-# timemanagment
+# Productivity Planner
 
-A new Flutter project.
+## Overview
+**Productivity Planner** is a mobile application designed to help users stay organized, enhance their productivity, and build better study habits. Developed using **Flutter**, **Dart**, and **Firebase**, this app provides an intuitive interface for tracking important dates, managing tasks, and using tools for self-improvement.
 
-## Getting Started
+## Features
+- **Task Management**: Perform create, read, update, and delete (CRUD) operations for tasks.
+- **Date Tracking**: Keep track of important deadlines, events, and goals.
+- **Study Habit Tools**: Improve your study habits with built-in productivity tools.
+- **Firebase Integration**: Real-time data storage and synchronization across devices.
+- **User-Friendly Interface**: Simple and clean design for seamless navigation.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-DEMO
-
-
+## Demo
+Check out the app in action:
 https://user-images.githubusercontent.com/74563547/219827605-f6a71c7b-4a4c-4a52-99e4-e92e15af8671.mp4
 
