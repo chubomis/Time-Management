@@ -59,6 +59,7 @@ class _StudyTimeState extends State<StudyTime> {
   /// Displays button to start which on press will start the timer, displays the timer itself and an appbar
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.deepOrange,
         appBar: AppBar(
           centerTitle: true,
           title: const Text("Study Time!"),
@@ -99,14 +100,23 @@ class _StudyTimeState extends State<StudyTime> {
               ElevatedButton(
                 onPressed: startTimer,
                 child: Text('Start Timer'),
+                style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orangeAccent)),
               ),
-              SizedBox(
-                width: 200,
+              SizedBox(height: 40),
+              Container( // Wrap the TextField with a Container
+                width: 220, // Slightly larger width for the container
+                padding: EdgeInsets.symmetric(horizontal: 10), // Add some padding
+                decoration: BoxDecoration(
+                  color: Colors.orangeAccent, // Set the color
+                  borderRadius: BorderRadius.circular(15), // Same border radius
+                ),
                 child: TextField(
-                  controller: secondsController, textAlign: TextAlign.center,
+                  controller: secondsController,
+                  textAlign: TextAlign.center,
                   keyboardType: TextInputType.number,
                   decoration: InputDecoration(
                     hintText: "Enter seconds",
+                    border: InputBorder.none, // Remove TextField border
                   ),
                 ),
               ),
